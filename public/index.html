@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blogging Platform</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Simple Blogging Platform</h1>
+
+    <div id="formContainer">
+        <input type="hidden" id="postId">
+        <input type="text" id="title" placeholder="Title">
+        <textarea id="body" placeholder="Body"></textarea>
+        <input type="text" id="author" placeholder="Author">
+        <button onclick="submitPost()">Submit Post</button>
+        <button onclick="updatePost()" style="display:none;">Update Post</button>
+    </div>
+
+    <div id="postsContainer"></div>
+
+    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

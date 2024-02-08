@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+#formContainer {
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#postsContainer {
+    margin-top: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-size: 20px;
+    color: #333;
+}
+
+.post-body {
+    margin-top: 10px;
+}
+
+.post-author {
+    font-style: italic;
+}
+
+.delete-btn, .edit-btn {
+    cursor: pointer;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.delete-btn:hover, .edit-btn:hover {
+    text-decoration: underline;
+}
